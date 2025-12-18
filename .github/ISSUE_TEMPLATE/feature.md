@@ -1,16 +1,8 @@
 ---
 name: Feature
-about: Describe this issue template's purpose here.
-title: ''
-labels: ''
-assignees: ''
-
----
-
-name: Bug Report
-description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
+description: File a Feature
+title: "[Feature]: "
+labels: ["Feature"]
 projects: ["octo-org/1", "octo-org/44"]
 assignees:
   - octocat
@@ -18,7 +10,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thanks for taking the time to fill out this Feature!
   - type: input
     id: contact
     attributes:
@@ -71,3 +63,6 @@ body:
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
+---
+
+
